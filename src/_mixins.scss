@@ -1,0 +1,10 @@
+@mixin ellipsis() {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+@mixin link-text {
+  color: $var-colors-blue-primary;
+  text-decoration: none;
+}

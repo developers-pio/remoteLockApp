@@ -1,0 +1,57 @@
+html,
+body {
+  background-color: $var-colors-white-smoke;
+  @include base-font;
+  height: 100%;
+  margin: 0;
+  -webkit-overflow-scrolling: touch;
+
+  > div:first-child {
+    // Make the div holding the app full-height
+    // For some reason #app selector won't work here ¯\_(ツ)_/¯
+    height: 100%;
+  }
+
+  a {
+    @include link-text;
+  }
+
+  h1 {
+    @include heading-1;
+  }
+
+  h2 {
+    @include heading-2;
+  }
+
+  h3 {
+    @include heading-3;
+  }
+
+  h4 {
+    @include heading-4;
+  }
+
+  h5 {
+    @include heading-5;
+  }
+
+  h6 {
+    @include heading-6;
+  }
+
+  hr {
+    color: $var-colors-grey-light;
+    border-top: 1px solid $var-colors-grey-light;
+    border-bottom: 0;
+  }
+
+  strong {
+    @include font-open-sans-semibold;
+    color: black;
+  }
+}
+
+button {
+  font-size: 1rem !important;
+}

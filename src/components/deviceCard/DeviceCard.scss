@@ -1,0 +1,38 @@
+.card {
+  margin: 10px 0;
+  border: 0;
+  box-shadow: 0 3px 7px rgba(0, 0, 0, 0.13);
+  width: 100%;
+
+  .icon {
+    background: $var-colors-grey-light;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 1px solid $var-colors-grey-med;
+  }
+
+  .date {
+    font-weight: 700;
+  }
+
+  .card-title {
+    &.h4 {
+      font-weight: 700;
+    }
+  }
+
+  .card-text {
+    color: darkgray;
+  }
+
+  .status {
+    text-align: right;
+    font-size: 20px;
+    margin-top: auto;
+
+    span{
+      min-width: 100px;
+    }
+  }
+}
