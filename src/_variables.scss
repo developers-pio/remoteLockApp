@@ -1,0 +1,56 @@
+$var-colors-red: #ff5555;
+$var-colors-white-smoke: #eff0f0;
+$var-colors-grey-light: #d7d7d7;
+$var-colors-grey-med: #b7b7b7;
+$var-colors-grey-med-dark: #808080;
+$var-colors-grey-dark: #555;
+$var-colors-grey-ultradark: #333333;
+$var-colors-blue-primary: #015595;
+
+$colors-error: #ec3d3d;
+$colors-error-light: #f4e9e9;
+$colors-info: #00acd7;
+$colors-info-light: #e8f0f4;
+$colors-warning-light: #f7ebc5;
+
+$border-radius: 4px;
+
+$box-shadow-low: 0px 0px 1px rgba(0, 0, 0, 0.25), 0px 1px 2px rgba(0, 0, 0, 0.15),
+  0px 1px 4px rgba(0, 0, 0, 0.1);
+$inset-box-shadow-low: inset 0px 0px 1px rgba(0, 0, 0, 0.25), inset 0px 1px 2px rgba(0, 0, 0, 0.15),
+  inset 0px 1px 4px rgba(0, 0, 0, 0.1);
+
+$box-shadow-medium-low: 0px 0px 1px rgba(0, 0, 0, 0.25), 0px 2px 4px rgba(0, 0, 0, 0.15),
+  0px 2px 8px rgba(0, 0, 0, 0.1);
+
+$box-shadow-medium: 0px 0px 1px rgba(0, 0, 0, 0.25), 0px 4px 8px rgba(0, 0, 0, 0.15),
+  0px 4px 16px rgba(0, 0, 0, 0.1);
+$inset-box-shadow-medium: inset 0px 0px 1px rgba(0, 0, 0, 0.25),
+  inset 0px 4px 8px rgba(0, 0, 0, 0.15), inset 0px 4px 16px rgba(0, 0, 0, 0.1);
+
+$box-shadow-high: 0px 0px 1px rgba(0, 0, 0, 0.25), 0px 8px 16px rgba(0, 0, 0, 0.15),
+  0px 8px 32px rgba(0, 0, 0, 0.1);
+
+$var-font-color-1: $var-colors-blue-primary;
+$var-text-light: #6c6d6d;
+
+// Breakpoints
+$breakpoint-hand: 576px;
+$breakpoint-lap: 768px;
+$breakpoint-desk: 1024px;
+
+// Avatar sizes
+$avatar-size: 2.3rem;
+
+// Export Colors
+// By exporting these, we make the values
+// available for use in components
+:export {
+  varColorsRed: $var-colors-red;
+  varColorsWhiteSmoke: $var-colors-white-smoke;
+  varColorsGreyLight: $var-colors-grey-light;
+  varColorsGreyMed: $var-colors-grey-med;
+  varColorsGreyMedDark: $var-colors-grey-med-dark;
+  varColorsGreyDark: $var-colors-grey-dark;
+  varColorsGreyUltradark: $var-colors-grey-ultradark;
+}

@@ -1,0 +1,63 @@
+
+@mixin font-open-sans-light {
+  font: {
+    family: 'Open Sans', sans-serif;
+    weight: 300;
+  }
+}
+
+@mixin font-open-sans-regular {
+  font: {
+    family: 'Open Sans', sans-serif;
+    weight: 400;
+  }
+}
+
+@mixin font-open-sans-semibold {
+  font: {
+    family: 'Open Sans', sans-serif;
+    weight: 600;
+  }
+}
+
+@mixin base-font {
+  @include font-open-sans-regular;
+  font-size: 13px;
+  color: $var-colors-grey-ultradark;
+}
+
+@mixin heading-1 {
+  @include font-open-sans-light;
+  font-size: 24px;
+  color: $var-font-color-1;
+}
+
+@mixin heading-2 {
+  @include font-open-sans-regular;
+  font-size: 20px;
+  color: $var-font-color-1;
+}
+
+@mixin heading-3 {
+  @include font-open-sans-regular;
+  font-size: 18px;
+  color: $var-colors-grey-ultradark;
+}
+
+@mixin heading-4 {
+  @include font-open-sans-semibold;
+  font-size: 16px;
+  color: $var-colors-grey-ultradark;
+}
+
+@mixin heading-5 {
+  @include font-open-sans-regular;
+  font-size: 15px;
+  color: $var-colors-grey-ultradark;
+}
+
+@mixin heading-6 {
+  @include font-open-sans-semibold;
+  font-size: 13px;
+  color: $var-colors-grey-ultradark;
+}

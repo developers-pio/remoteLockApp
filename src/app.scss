@@ -1,0 +1,31 @@
+.page-tabs {
+  background-color: $var-colors-grey-med;
+  border-radius: 10px;
+  padding: 5px;
+
+  .nav-item {
+    @media screen and (max-width: $breakpoint-lap) {
+      flex: 1;
+    }
+
+    .nav-link {
+      color: #000;
+      font-weight: 700;
+      @media screen and (max-width: $breakpoint-lap) {
+        width: 100%;
+      }
+
+      &.active {
+        background-color: white;
+        color: #000;
+      }
+    }
+  }
+
+  .show {
+    > .nav-linke {
+      background-color: white;
+      color: #000;
+    }
+  }
+}
